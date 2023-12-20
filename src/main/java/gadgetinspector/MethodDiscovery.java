@@ -74,7 +74,7 @@ public class MethodDiscovery {
         private Set<String> annotations;
 
         private MethodDiscoveryClassVisitor() throws SQLException {
-            super(Opcodes.ASM6);
+            super(Opcodes.ASM9);
         }
 
         @Override
